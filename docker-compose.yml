@@ -1,0 +1,10 @@
+version: '3'
+services:
+  visits:
+    build: 
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "4011:8080"
+    volumes:
+      - ./output:/usr/app
