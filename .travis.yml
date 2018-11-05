@@ -4,4 +4,4 @@ services:
   - docker
 
 install:
-  - docker build -t carlad/sinatra -f Dockerfile.dev
+  - docker build -t prasadmangat/demo2 -f Dockerfile.dev .
