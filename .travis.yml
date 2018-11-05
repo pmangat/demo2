@@ -1,2 +1,7 @@
-language: java
-jdk: oraclejdk8
+sudo: required
+
+services:
+  - docker
+
+install:
+  - docker build -t carlad/sinatra -f Dockerfile.dev
